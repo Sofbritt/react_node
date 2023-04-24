@@ -1,11 +1,11 @@
 .App {
-  text-align: center;
+text-align: center;
 }
 body{
-  background-color: rgb(214, 195, 212);
+  background-color: rgb(255, 211, 242);
 }
 
-.images{
+/* .images{
   width: 150px;
   height: 150px;
   padding: 10px;
@@ -15,4 +15,51 @@ body{
   display: flex;
   justify-content: flex-start;
 
+} */
+
+
+
+
+.imgs{
+  width: 150px;
+  height: 150px;
+  border-radius: 40px;
+}
+.inp{
+  width: 240px;
+  height: 30px;
+  border-radius: 20px;
+  border: 2px solid black;
+  margin-top: 15px;
+}
+.send-but{
+  width: 120px;
+  height: 25px;
+  background-color: rgb(23, 112, 172);
+  border: 2px solid black;
+  margin-top: 15px;
+}
+.open-but{
+background-color: rgb(209, 115, 167);
+width: 140px;
+height: 37px;
+border-radius: 10px;
+}
+
+.hr{
+  width: 100%;
+}
+
+.send-but{
+  width: 110px;
+  height: 30px;
+  border-radius: 15px;
+  border: 2px solid black;
+background-color: rgb(59, 151, 255);
+}
+
+.img{
+  width: 150px;
+  height: 140px;
+  border-radius: 50px;
 }
